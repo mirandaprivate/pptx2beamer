@@ -256,11 +256,7 @@ def generate_main_tex(output_dir, slides_content, paper_width, paper_height, tit
         f.write(r"\kaishu" + "\n")
         f.write(r"\begin{frame}" + "\n")
         f.write(r"    \titlepage" + "\n")
-        f.write(r"    \begin{figure}[htpb]" + "\n")
-        f.write(r"        \begin{center}" + "\n")
-        f.write(r"            \includegraphics[width=0.618\linewidth]{../pic/szu_logo.png}" + "\n")
-        f.write(r"        \end{center}" + "\n")
-        f.write(r"    \end{figure}" + "\n")
+      
         f.write(r"\end{frame}" + "\n\n")
         
         if slides_content:
