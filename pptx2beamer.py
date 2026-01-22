@@ -339,7 +339,7 @@ def main():
     output_dir.mkdir(parents=True)
 
     # Copy template files from SWIFT_lecture_notes
-    template_dir = Path("/Users/miranda/Downloads/SWIFT_lecture_notes")
+    template_dir = Path("/Users/miranda/git/pptx2beamer/template")
     if template_dir.exists():
         for item in template_dir.iterdir():
             if item.name == "main.tex": continue
